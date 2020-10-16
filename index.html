@@ -1,59 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <title> Learn More </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Profile of User Name - Dogs" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <style>
+      .navbar-inverse{
+        background-color: black;
+          border-color: white;
+      }
+      .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a{
+        color: white;
+      
+      }
+        
     
-    <title>Dog Matcher</title>
-</head>
+    </style>
+  </head>
 
-<body style="background-color:#bcd4e6;">
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-
-        </ul>
-      </div>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Dog Matcher</a>
+        </div>
     </nav>
-  </div>
-
-
-  <br>
-
-  <h1>Dog Matcher</h1>
+    <!-- Search form -->
+    <div style="margin-right:10px;"class="topnav">
+      <input type="text" placeholder="Search.." class="pull-right">
+    </div>
   <h2>Looking for some company? Get matched today!</h2>
-  <hr>
-
-  <div style="padding-top:20px;">
-    <input type="text" placeholder="Search"
-      style="float: right; padding: 6px;border: none; margin-top: 8px; margin-right: 16px; font-size: 17px;">
-  </div>
-
   <div style="padding:50px 50px;">
-            <img src="test.jpg" alt="Dog pic">
+
+            <h3>Breed</h3>
+            <img src="images/dog1.jpg"width="150" height="150">
        
             <h3>Breed</h3>
-            <img src="test.jpg" alt="Dog pic">
+            <img src="images/HappyDog.jpg"width="150" height="150" >
         
             <h3>Breed</h3>
-            <img src="test.jpg" alt="Dog pic">
+            <img src="images/puppy1.jpg"width="150" height="150">
       
             <h3>Breed</h3>
-            <img src="test.jpg" alt="Dog pic">
+            <img src="images/shydog.jpg"width="150" height="150">
        
   </div>
-
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
